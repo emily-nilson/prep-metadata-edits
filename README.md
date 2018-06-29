@@ -6,12 +6,14 @@ Requires:
 - `csvtojson` https://www.npmjs.com/package/csvtojson
 - `jq` https://stedolan.github.io/jq/download/
 - `colordiff` https://www.colordiff.org
+- `npm` https://www.npmjs.com/ (may be required)
 
 # Post new metadata
 
 ### 1. Install required libraies, and get your RW API KEY at https://ui.resourcewatch.org/ .
 
 ```
+sudo apt-get install npm
 sudo npm i -g csvtojson
 sudo apt-get install -y jq colordiff
 ```
